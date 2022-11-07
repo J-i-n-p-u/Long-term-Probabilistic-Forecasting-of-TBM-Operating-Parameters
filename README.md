@@ -1,13 +1,13 @@
 # Long-term-Probabilistic-Forecasting-of-TBM-Operating-Parameters
 A Long-term Probabilistic Forecasting Approach of TBM Operating Parameters based on Deep Learning
 
-The work was presented in the the 4th International Conference on Information Technology in Geo-Engineering ([4ICITG](https://www.4iticg.org/4-august-2022)). The presentation video can be found [here](https://drive.google.com/file/d/120fCDxok1N5_AgnAPHnvCo-gy0Vtct6B/view?usp=sharing) and the slides can be found [here](https://github.com/J-i-n-p-u/Long-term-Probabilistic-Forecasting-of-TBM-Operating-Parameters/blob/main/A%20Long-term%20Probabilistic%20Forecasting%20Approach%20of%20TBM%20Operating%20Parameters%20based%20on%20Deep%20Learning.pdf).
+<img align="right"  src="water_consumption.png">
 
 ## Description
-<img align="right" height="150" src="T_seq.gif"> **Abstraction**: In tunnel construction, tremendous data of Tunnel Boring Machine (TBM) operating parameters will be produced, which makes the automatic construction based on data-driven models possible. The work develops a recurrent neural network (RNN) -based pipeline for probabilistic forecasting of the trend of TBM operating parameters in the next one minute in real-time from historical 40-second tunneling data. In the Jilin Yinsong Water Tunnel dataset, the cutter head torque and thrust prediction accuracies are more than 82% and 93%, respectively. The model shows strong potential to give long-term and real-time guidance for TBM drivers in practice and thus reduces the uncertainties in the TBM excavation process.
+ **Abstraction**: Urban water supply service is one of the critical functions of urban infrastructure. Accurate prediction of water consumption in the future is helpful in detecting the abnormalities of water supply systems, such as pipe bursts, and effectively improves the economy and stability of the water supply system. Based on two water consumption datasets, the paper finds that the Recurrent Neural Networks model represented by the GRU model outperforms other artificial neural network models when conducting the value prediction of water consumption. The root mean square error of the GRU model is only 80% of the basic model’s error. Besides, the paper develops a probabilistic water consumption model based on the Deep Auto-Regression (DeepAR) model, whose mean absolute percentage error on the test set is only 6%, which can be used in the pipe bursts alarming.a
 
 
-**Keywords: Tunnel Boring Machine, Probabilistic Forecasting, Deep Learning**
+**Keywords: Water Consumption, Seq to Seq, RNN, Probabilistic Prediction, DeepAR**
 
 ## Installation
 The project was implemented with python 3.9
