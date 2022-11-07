@@ -9,3 +9,8 @@ The work was presented in the the 4th International Conference on Information Te
 **Keywords: Tunnel Boring Machine, Probabilistic Forecasting, Deep Learning**
 
 ## Installation
+The project was implemented with python 3.9
+
+```bash
+pip install -r requirements.txt
+```
